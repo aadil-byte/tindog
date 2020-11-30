@@ -1,0 +1,234 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+hr{
+  width: 80%;
+  border-color: #16697a;
+  border-width: 3px;
+}
+/*                                                        title                                   */
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: white;
+}
+.title {
+  padding: 3% 15% 7%;
+}
+/*                                                   nav-bar                                      */
+.navbar {
+  padding: 0 0 4.5rem;
+  margin-bottom: 2%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/*                                                  download button                               */
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/*                                                   title image                                   */
+.img-dog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 28%;
+}
+
+/*                                                    features                                      */
+#features {
+  background-color: #fff;
+  padding: 7% 13% 7%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+.col-box {
+  padding: 0 4.5% 0;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*                                                    testimonials section                                 */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-img {
+  border: none;
+  border-radius: 50%;
+  width: 13%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*                                                       press                                          */
+#press {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+/*                                                   pricing table                                      */
+#pricing {
+  padding: 80px 100px 20px;
+}
+
+.pricing-context {
+  font-size: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/*                                                     cta                                       */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/*                                                 footer                                        */
+#footer {
+  background-color: #fff;
+  padding: 3% 10% 10px;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 2% 0 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #c05555;
+  font-size: 2.5rem;
+  margin: 5% 7%;
+}
+
+.footer-link:hover {
+  color: darkred;
+}
+
+/*                                      advanced css for responsive back                   */
+@media(max-width:1024px) {
+  .img-dog {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .title-content {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:992px) {
+  .img-dog {
+    width: 40%;
+  }
+}
+/*                                           iframe                       */
+.Bootstrap{
+  padding: 3% 15% 3%;
+  text-align: center;
+  font-size: 1rem;
+}
+.bootstrap-text{
+  font-size: 2rem;
+  margin-bottom: 3%;
+  color: #8f8f8f;
+}
+/*                                               scrollbar                    */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #214252;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
